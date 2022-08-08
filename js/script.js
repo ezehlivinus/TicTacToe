@@ -7,7 +7,9 @@ let buttons = document.querySelectorAll('.box');
 //set click listen on all buttons
 for (let button of buttons) {
   button.addEventListener('click', () => {
-    if (button.textContent !== "") return;
+    if (button.textContent !== "") {
+      return 
+    };
 
     if (lastValue === "O") {
       button.textContent = "X";
