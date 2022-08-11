@@ -14,13 +14,13 @@ for (let button of buttons) {
       lastValue = "X";
       display.textContent = "Player 2's turn to play";
       checkGameStatus();
-      checkDraw();
+      // checkDraw();
     } else {
       button.textContent = "O";
       lastValue = "O";
       display.textContent = "Player 1's turn to play";
       checkGameStatus();
-      checkDraw();
+      // checkDraw();
     }
   });
 }
