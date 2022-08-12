@@ -1,8 +1,9 @@
 // function to check when game is won
 function checker(first, second, third) {
   if(display.textContent.includes("won the game")) {
-    return ;
+    return;
   }
+
   if (buttons[first].textContent === "X" &&
     buttons[second].textContent === "X" &&
     buttons[third].textContent === "X") {
